@@ -16,5 +16,16 @@ namespace PizzaAutomation
         {
             InitializeComponent();
         }
+
+        private void table_8_Click(object sender, EventArgs e)
+        {
+            string strTableid = ((Button)sender).Name.Split('_').Last();
+            int tableid = 0;
+            Int32.TryParse(strTableid, out tableid);
+            if (tableid != 0)
+            {
+                //
+            }
+        }
     }
 }
