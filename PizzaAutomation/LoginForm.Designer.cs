@@ -76,7 +76,7 @@ namespace PizzaAutomation
             this.txtUsername.Location = new System.Drawing.Point(128, 254);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(149, 26);
-            this.txtUsername.TabIndex = 2;
+            this.txtUsername.TabIndex = 0;
             // 
             // txtPass
             // 
@@ -85,7 +85,7 @@ namespace PizzaAutomation
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '●';
             this.txtPass.Size = new System.Drawing.Size(149, 26);
-            this.txtPass.TabIndex = 2;
+            this.txtPass.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -93,7 +93,7 @@ namespace PizzaAutomation
             this.btnLogin.Location = new System.Drawing.Point(128, 332);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(90, 31);
-            this.btnLogin.TabIndex = 3;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
