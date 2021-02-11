@@ -95,6 +95,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminIncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminIncomeForm.Designer.cs">
+      <DependentUpon>AdminIncomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProductsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProductsForm.Designer.cs">
+      <DependentUpon>AdminProductsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUsersForm.Designer.cs">
+      <DependentUpon>AdminUsersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnection.cs" />
     <Compile Include="Encryption.cs" />
     <Compile Include="GlobalClasses.cs" />
@@ -118,6 +142,18 @@
     <Compile Include="TableForm.designer.cs">
       <DependentUpon>TableForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminIncomeForm.resx">
+      <DependentUpon>AdminIncomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProductsForm.resx">
+      <DependentUpon>AdminProductsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUsersForm.resx">
+      <DependentUpon>AdminUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

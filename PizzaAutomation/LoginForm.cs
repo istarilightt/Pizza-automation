@@ -33,9 +33,18 @@ namespace PizzaAutomation
             DataTable result = selectTable("select * from users where username=@1 and password=@2", parameters);
             if (result.Rows.Count > 0)
             {
-                OrderForm formOrder = new OrderForm();
-                formOrder.Show();
-                Hide();
+                if (result.Rows[0][1].ToString() == "admin")
+                {
+                    AdminPanel ap = new AdminPanel();
+                    ap.Show();
+                    Hide();
+                }
+                else
+                {
+                    OrderForm formOrder = new OrderForm();
+                    formOrder.Show();
+                    Hide();
+                }
             }
             else
             {

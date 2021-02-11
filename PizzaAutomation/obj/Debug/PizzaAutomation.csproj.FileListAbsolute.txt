@@ -37,3 +37,7 @@ C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAu
 C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.csproj.CopyComplete
 C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.exe
 C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.pdb
+C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.AdminPanel.resources
+C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.AdminUsersForm.resources
+C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.AdminProductsForm.resources
+C:\Users\Ahmet\Desktop\pizzaa\Pizza-automation\PizzaAutomation\obj\Debug\PizzaAutomation.AdminIncomeForm.resources
